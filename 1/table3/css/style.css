@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-image: url("b1.jpg");
+}
+.pqr{
+    
+        width: 25%;
+        padding: 5px 10px;
+        margin: 5px;
+        display: inline-block;
+        border: 3px;
+        border-radius: 5px;
+        box-sizing: border-box;
+        border-style: double;
+        border-width: thick;
+        border-style: solid;
+        border-color: red;
+        border: 2px solid rgb(250, 8, 8);
+        border-radius: 15px;
+        padding: 5px;
+        outline-style: inset;
+    }   
+
+
+h2 {
+
+    text-shadow: 3px 3px red;
+}
+
+.Abc {
+    background-color: rgba(231, 70, 21, 0.5);
+    text-align: center;
+    margin: 0px;
+    padding: 1px;
+
+}
+
+
+ul {
+
+    list-style-type: none;
+    margin-top: 25px;
+    margin-left: 40px;
+
+}
+
+ul li {
+    display: inline-flex;
+    margin: 0px;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+   
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(102, 21, 252);
+    padding: 20px 10px;
+
+}
+
+a:hover {
+    color: rgb(13, 14, 13);
+}
+
+.def {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    background-color: coral;
+    box-shadow: 5px 5px lightblue;
+    border-style: double;
+    border-width: thick;
+    font-family: 'Square Peg', cursive;
+    }
+
+.def:hover {
+    background-color: #af4c89;
+    color: rgb(224, 24, 24);
+    box-shadow: 10px 10px rgb(72, 8, 247);
+    text-shadow: 5px 5px rgb(68, 236, 17);
+}
+
+input[type=text],
+select {
+    width: 25%;
+    padding: 5px 10px;
+    margin: 5px;
+    display: inline-block;
+    border: 3px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-style: double;
+    border-width: thick;
+    border-style: solid;
+    border-color: red;
+    border: 2px solid rgb(250, 8, 8);
+    border-radius: 12px;
+    padding: 5px;
+    outline-style: inset;
+   
+    
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #060;
+    color: white;
+    padding: 15px 15px;
+    margin: 4px auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-style: double;
+    border-width: thick;
+    border: 2px solid red;
+    border-radius: 12px;
+    align-items: center;
+    outline-style: inset;
+}
+
+input[type=submit]:hover {
+    background-color: #F00;
+    border-style: double;
+    border-width: thick;
+    align-items: center;
+ 
+}
+input, b{
+    color: blue;
+    
+}
